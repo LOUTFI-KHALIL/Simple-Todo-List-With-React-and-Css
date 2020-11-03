@@ -1,0 +1,47 @@
+.todo {
+  background-color: #9266ff;
+}
+.TodoList {
+  background-color: #3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 30px;
+}
+
+.TodoList h1 {
+  color: rgb(202, 156, 24);
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.TodoList input {
+  background-color: rgb(27, 112, 127);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #fff;
+}
+.TodoList input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.TodoList input:focus,
+#to-do-form button:focus {
+  outline: none;
+}
+.TodoList button {
+  height: 40px;
+  width: 90px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(202, 156, 24);
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+}
